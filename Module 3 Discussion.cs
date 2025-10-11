@@ -2,17 +2,17 @@ using System;
 
 public class Panda
 {
-    // Auto-implemented properties
+    // defining properties
     public string Name { get; }
     public Panda Mate { get; private set; }
 
-    // Constructor
+    // this is the constructor, which means that it creates and initializes the name's property, in this case a panda.
     public Panda(string name)
     {
         Name = name;
     }
 
-    // Method to marry another panda
+    // declares that the two pandas will mate.
     public void Marry(Panda partner)
     {
         Mate = partner;
